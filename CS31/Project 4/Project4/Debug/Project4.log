@@ -1,0 +1,22 @@
+﻿Build started 7/26/2012 10:36:33 PM.
+     1>Project "C:\Projects\CS 31\Project4\Project4\Project4.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Project4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Project4.cpp
+         Project4.cpp
+     1>c:\projects\cs 31\project4\project4\project4.cpp(30): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\CS 31\Project4\Debug\Project4.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Project4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\CS 31\Project4\Debug\Project4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\CS 31\Project4\Debug\Project4.lib" /MACHINE:X86 Debug\Project4.obj
+         LINK : C:\Projects\CS 31\Project4\Debug\Project4.exe not found or not built by the last incremental link; performing full link
+         Project4.vcxproj -> C:\Projects\CS 31\Project4\Debug\Project4.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Projects\CS 31\Project4\Debug\Project4.exe;#1" /manifest Debug\Project4.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Project4.unsuccessfulbuild".
+         Touching "Debug\Project4.lastbuildstate".
+     1>Done Building Project "C:\Projects\CS 31\Project4\Project4\Project4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19
